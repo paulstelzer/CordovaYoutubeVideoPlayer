@@ -49,7 +49,7 @@
         </platform>
 
         <platform name="ios">
-
+            <hook type="after_plugin_install" src="hooks/AfterPluginInstall.js" />
             <config-file target="config.xml" parent="/*">
                 <feature name="YoutubeVideoPlayer">
                     <param name="ios-package" value="YoutubeVideoPlayer"/>
